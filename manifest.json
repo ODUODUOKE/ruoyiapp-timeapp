@@ -37,7 +37,19 @@
             },
             "ios" : {},
             "sdkConfigs" : {}
-        }
+        },
+        "orientation" : [
+            //竖屏正方向
+            "portrait-primary",
+            //竖屏反方向
+            "portrait-secondary",
+            //横屏正方向
+            "landscape-primary",
+            //横屏反方向
+            "landscape-secondary",
+            //自然方向
+            "default"
+        ]
     },
     "quickapp" : {},
     "mp-weixin" : {

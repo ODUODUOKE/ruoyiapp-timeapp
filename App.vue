@@ -1,6 +1,5 @@
 <script>
   import config from './config'
-  import store from '@/store'
   import { getToken } from '@/utils/auth'
 
   export default {
@@ -22,7 +21,7 @@
       },
       checkLogin() {
         if (!getToken()) {
-          this.$tab.reLaunch('/pages/login') 
+          this.$tab.reLaunch('/pages/login')
         }
       }
     }
@@ -30,5 +29,13 @@
 </script>
 
 <style lang="scss">
-  @import '@/static/scss/index.scss'
+  @import '@/static/scss/index.scss';
+
+  @font-face {
+    font-family: Arvo-Bold;
+    src: url('~@/static/font/Poppins-Medium.ttf');
+  }
+
+
+
 </style>

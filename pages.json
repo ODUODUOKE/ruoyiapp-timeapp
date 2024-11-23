@@ -2,7 +2,8 @@
   "pages": [{
     "path": "pages/login",
     "style": {
-      "navigationBarTitleText": "登录"
+      "navigationBarTitleText": " ",
+      "navigationStyle": "custom"
     }
   }, {
     "path": "pages/register",
